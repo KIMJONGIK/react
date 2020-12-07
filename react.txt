@@ -1,0 +1,61 @@
+React js
+* HTML처럼 코딩 => JSX -> 컴포넌트 화면
+* Component => 화면 조각
+	1. Class Componet => render
+	2. Functional Component => return 
+
+App.js, index.js 빼고는
+.eslintcahe 위로 다 지움
+
+확장 앱
+ES7 React/Redux/GraphQL/React-Native snippets
+Reactjs code snippets
+Prettier - Code formatter
+설치
+
+
+App.js 는 모든 컴포넌트의 부모 컴포넌트
+
+MyComponent에서 rsc + tab
+
+
+
+useMemo : 숫자가 등록이 됐을 때만 연산이 되는 함수 - 함수의 연산 최적화
+useCallback : 함수의 생성 타이밍 결정 - 함수의 생성 최적화
+
+npx create-react-app react-ch04
+
+npm install react-router-dom
+npm install styled-components
+npm install styled-reset
+
+
+newsapi.org key : 4203feff73b047a4937c1872a138146d
+강사님 key : 536fa50ec1c0421583ca92919afb2282
+
+
+----------------------------------
+react-ch05
+
+npm install styled-components axios react-router-dom
+
+aixso를 사용할 때마다  async await를 사용해야 한다.
+----------------------------------
+
+12/2
+npx create-react-app bitflix
+cd bitflix
+git init
+git remote add origin https://github.com/KIMJONGIK/bitflix.git
+git branch -M main
+git push -u origin main
+
+npm install axios react-router-dom styled-components styled-reset
+npm install react-helmet
+npm install prop-types
+
+----------------------------------
+12/3
+강의 순서 
+SearchContainer -> SearchPresenter
+
